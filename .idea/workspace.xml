@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c82fbc27-7474-4d2e-804f-aaa2c617e549" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/commit-msg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/post-merge" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__mocks__/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__mocks__/svgMock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commitlint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/.open-next/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/cdk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/scripts/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/scripts/deploy_dev.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/scripts/deploy_prod.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/scripts/lint_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/aws/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/aws/certificate/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/aws/cloudfront/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/aws/functions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/aws/headers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/aws/helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/aws/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/aws/logging/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/aws/route53/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/aws/s3/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/deployment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/helpers/helpers.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/helpers/helpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/nextjs-stack.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/jest-setup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/mocks/api-gateway-event.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/mocks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/tsconfig.eslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.setup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lint-staged.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prettier.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/checkbox-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/checkbox-on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/connection-lost.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/devices.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/electric.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/external-link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/help.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/hidden.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/information.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/location.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/online.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/plus-sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/savings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/sign-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/tick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/usage.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icons/visible.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/complete-sign-up/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/confirm-account/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/new-tenant/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/page.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/registry.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/sign-in/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/button.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/button.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading-spinner/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading-spinner/loading-spinner.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading-spinner/loading-spinner.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading/loading.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading/loading.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pricing-card/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pricing-card/pricing-card.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pricing-card/pricing.card.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/svg-icon/icons.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/svg-icon/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/svg-icon/svg-icon.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/text-input/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/text-input/text-input.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/text-input/text-input.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/text-link/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/text-link/text-link.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/text-link/text-link.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/text/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/text/text.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/text/text.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/title-bar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/title-bar/title-bar.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/title-bar/title-bar.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/unauthenticated-wrapper/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/unauthenticated-wrapper/unauthenticated-wrapper.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/unauthenticated-wrapper/unauthenticated-wrapper.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/content/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/auth/auth.context.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/auth/auth.helpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/auth/auth.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/auth/auth.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/auth/auth.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/auth/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/complete-sign-up/complete-sign-up.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/complete-sign-up/complete-sign-up.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/complete-sign-up/complete-sign-up.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/complete-sign-up/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/confirm-account/confirm-account.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/confirm-account/confirm-account.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/confirm-account/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/new-tenant/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/new-tenant/new-tenant.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/new-tenant/new-tenant.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/new-tenant/new-tenant.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/sign-in/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/sign-in/sign-in.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/sign-in/sign-in.styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/sign-in/sign-in.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/stores.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/use-safe-async/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/use-safe-async/use-safe-async.hook.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/use-safe-async/use-safe-async.reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/use-safe-async/use-safe-async.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/use-safe-async/use-safe-async.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/tenants/create-tenant.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/tenants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/tokens.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test-support/__mocks__/cognito/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test-support/__mocks__/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test-support/__mocks__/locales/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test-support/__mocks__/state/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test-support/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test-support/resolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/formatting/formatting.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/formatting/formatting.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/formatting/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/interpolate/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/interpolate/interpolate.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/interpolate/interpolate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/refresh-jwt/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/refresh-jwt/refresh-jwt.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/refresh-jwt/refresh-jwt.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/storage/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/storage/storage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/type-guarding/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validation/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validation/validation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SksMdueXXvSbPyp1rEhiV2i0wr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/michaelatherton/Development/memba/memba-website/deployment",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/michaelatherton/Development/memba/memba-website/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deployment" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c82fbc27-7474-4d2e-804f-aaa2c617e549" name="Changes" comment="" />
+      <created>1689701866455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689701866455</updated>
+      <workItem from="1689701867637" duration="268000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

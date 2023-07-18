@@ -11,6 +11,8 @@
 # next.js
 /.next/
 /out/
+build.zip
+/.open-next/
 
 # production
 /build

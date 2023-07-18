@@ -1,0 +1,33 @@
+export interface IconNames {
+  rightArrow: string
+  plusSign: string
+  information: string
+  tick: string
+  user: string
+  back: string
+  savings: string
+  usage: string
+  devices: string
+  error: string
+  electric: string
+  twitter: string
+  visible: string
+  hidden: string
+  email: string
+  password: string
+  online: string
+  forward: string
+  remove: string
+  checkBoxOn: string
+  checkBoxOff: string
+  externalLink: string
+  minus: string
+  signOut: string
+  location: string
+  help: string
+  fill: string
+  delete: string
+  connectionLost: string
+  google: string
+  apple: string
+}

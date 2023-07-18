@@ -1,0 +1,14 @@
+node_modules
+public
+src/test-support
+deployment
+jest.setup.ts
+jest.config.js
+lint-staged.config.js
+commitlint.config.js
+prettier.config.js
+.next
+.eslintrc.js
+.prettierignore
+next.config.js
+__mocks__
