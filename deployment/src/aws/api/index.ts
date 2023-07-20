@@ -1,6 +1,7 @@
 import {Construct} from 'constructs'
 import {EndpointType, LambdaIntegration, RestApi} from 'aws-cdk-lib/aws-apigateway'
 import {Function as CdkFunction} from 'aws-cdk-lib/aws-lambda'
+import CONFIG from '../../config'
 
 interface CreateApiGatewayProps {
   scope: Construct
@@ -25,7 +26,10 @@ type ImageApiGatewayProps = {
 
 export const createImageApiGateway = (props: ImageApiGatewayProps) => {
   const {scope, region, urlSuffix, desiredPath, cdkFunction} = props
-  const apiGateway = createApiGateway({scope, id: `ImageOptimisation`})
+  const apiGateway = createApiGateway({
+    scope,
+    id: `${CONFIG.STACK_PREFIX}ImageOptimisation`,
+  })
   // const logGroup = enableLogging({scope, id: `ImageOptimisation`, api: apiGateway})
   const url = `${apiGateway.restApiId}.execute-api.${region}.${urlSuffix}`
 
@@ -55,7 +59,7 @@ type ServerApiProps = {
 
 export const createServerApiGateway = (props: ServerApiProps) => {
   const {scope, urlSuffix, desiredPath, cdkFunction, region} = props
-  const api = createApiGateway({scope, id: `Server`})
+  const api = createApiGateway({scope, id: `${CONFIG.STACK_PREFIX}Server`})
   // const logGroup = enableLogging({scope, id: `Server`, api})
   const url = `${api.restApiId}.execute-api.${region}.${urlSuffix}`
 
